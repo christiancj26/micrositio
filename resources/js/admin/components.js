@@ -1,0 +1,14 @@
+Vue.component('navbar', require('./components/nav/NavbarComponent.vue').default);
+Vue.component('posts-table', require('./components/posts/PostsTableComponent.vue').default);
+Vue.component('users-table', require('./components/users/UsersTableComponent.vue').default);
+Vue.component('avatar-user', require('./components/pag/avatarUser.vue').default);
+Vue.component('img-fade', require('./components/pag/img.vue').default);
+Vue.component('post-buttons', require('./components/posts/buttons/botones.vue').default);
+Vue.component('user-buttons', require('./components/users/buttons/botones.vue').default);
+Vue.component('pagination', require('laravel-vue-pagination'));
+Vue.component('upload-photos', require('./components/posts/UploadPhotos.vue').default);
+Vue.component('photos', require('./components/posts/Photos.vue').default);
+Vue.component('roles', require('./components/roles/checkboxes.vue').default);
+Vue.component('permissions', require('./components/permissions/checkboxes.vue').default);
+Vue.component('roles-table', require('./components/roles/rolesTableComponent.vue').default);
+Vue.component('role-buttons', require('./components/roles/buttons/botones.vue').default);
